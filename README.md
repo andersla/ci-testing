@@ -1,1 +1,1 @@
-Repo for testing Travis commands etc.
+Repo for testing CI commands etc.
