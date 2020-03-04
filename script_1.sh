@@ -22,7 +22,7 @@ echo $ANDERS_GITHUB_TOKEN
 
 echo ${ANDERS_GITHUB_TOKEN:0:5}
 
-
+curl ifconfig.co
 
 
 
