@@ -2,7 +2,23 @@
 
 echo "Hello"
 
+echo python --version---------
 python --version
 
+echo Set ----------
 set
+
+echo printenv ----------
+printenv
+
+
+echo env ----------
+env
+
+echo ifconfig ------------
+ifconfig
+
+
+
+
 

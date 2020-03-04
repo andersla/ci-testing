@@ -9,10 +9,10 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
-      env:
-        ANDERS_GH_REPO: ${{github.repository}}
-        ANDERS_GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
     - name: Run a one-line script
       run: echo Hello, world!
     - name: Run my bash script
+      env:
+        ANDERS_GH_REPO: ${{github.repository}}
+        ANDERS_GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       run: ./script_1.sh
