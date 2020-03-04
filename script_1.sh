@@ -18,7 +18,9 @@ env
 echo ifconfig ------------
 ifconfig
 
-echo "$ANDERS_GITHUB_TOKEN"
+echo $ANDERS_GITHUB_TOKEN
+
+echo ${ANDERS_GITHUB_TOKEN:0:5}
 
 
 
