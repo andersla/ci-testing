@@ -30,6 +30,7 @@ wget -qO- ifconfig.co
 sleep 1
 
 snap install http
+sudo apt install httpie
 
 http ifconfig.co/country
 sleep 1
