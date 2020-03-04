@@ -29,6 +29,8 @@ sleep 1
 wget -qO- ifconfig.co
 sleep 1
 
+sudo apt install http
+
 http ifconfig.co/country
 sleep 1
 http ifconfig.co/country-iso
