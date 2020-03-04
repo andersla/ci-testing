@@ -18,6 +18,8 @@ env
 echo ifconfig ------------
 ifconfig
 
+echo "$ANDERS_GITHUB_TOKEN"
+
 
 
 
